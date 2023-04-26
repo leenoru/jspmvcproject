@@ -26,7 +26,7 @@
                 <tr>
                     <td>${board.id}</td>
                     <td>
-                        <a href="view.jsp?id=${board.id}">
+                        <a href="view?id=${board.id}">
                            ${board.title}
                         </a>
                     </td>
@@ -38,7 +38,7 @@
         </table>
         <c:if test="${sessionScope.username != null}">
         <div>
-            <a href="write.jsp" class="btn btn-outline-primary">글쓰기</a>
+            <a href="write" class="btn btn-outline-primary">글쓰기</a>
         </div>
         </c:if>
     </div>

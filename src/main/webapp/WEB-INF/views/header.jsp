@@ -8,10 +8,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="/index.jsp">🎮Play.GG</a>
+      <a class="navbar-brand" href="/index">🎮Play.GG</a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-sm-center bi bi-battery-full" aria-current="page" href="/login.jsp"> 로그인</a>
+          <a class="nav-link active text-sm-center bi bi-battery-full" aria-current="page" href="/login"> 로그인</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">회원가입</a>
@@ -34,8 +34,8 @@
                     <li><a href="logout">로그아웃</a></li>
                 </c:when>
                 <c:otherwise>
-                    <li><a href="login.jsp">로그인</li>
-                    <li><a href="register.jsp">회원가입</a></li>
+                    <li><a href="login">로그인</li>
+                    <li><a href="register">회원가입</a></li>
                 </c:otherwise>
             </c:choose>
         </ul>
